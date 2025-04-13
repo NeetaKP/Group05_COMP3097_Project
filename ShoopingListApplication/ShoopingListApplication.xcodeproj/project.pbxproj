@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0806447A2DA751130016BD0A /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080644792DA751130016BD0A /* CartManager.swift */; };
+		0806447C2DA941830016BD0A /* shoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0806447B2DA941830016BD0A /* shoppingCartViewController.swift */; };
 		0890B0752D86375B005897B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0890B0742D86375B005897B3 /* CoreData.framework */; };
 		0890B0792D863DC7005897B3 /* GroceryDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0890B0772D863DC7005897B3 /* GroceryDataModel.xcdatamodeld */; };
 		959FB5DA2D66E4FB00756B4C /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FB5D92D66E4FB00756B4C /* secondViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080644792DA751130016BD0A /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		0806447B2DA941830016BD0A /* shoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingCartViewController.swift; sourceTree = "<group>"; };
 		0890B0742D86375B005897B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0890B0782D863DC7005897B3 /* GroceryDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceryDataModel.xcdatamodel; sourceTree = "<group>"; };
 		959FB5D92D66E4FB00756B4C /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 		95E75E5D2D66B3AA0061762C = {
 			isa = PBXGroup;
 			children = (
+				080644792DA751130016BD0A /* CartManager.swift */,
 				95E75E682D66B3AA0061762C /* ShoopingListApplication */,
 				0890B0732D86375B005897B3 /* Frameworks */,
 				95E75E672D66B3AA0061762C /* Products */,
@@ -87,6 +92,7 @@
 				95E75E842D66D0ED0061762C /* firstViewController.swift */,
 				959FB5D92D66E4FB00756B4C /* secondViewController.swift */,
 				0890B0772D863DC7005897B3 /* GroceryDataModel.xcdatamodeld */,
+				0806447B2DA941830016BD0A /* shoppingCartViewController.swift */,
 			);
 			path = ShoopingListApplication;
 			sourceTree = "<group>";
@@ -163,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0806447C2DA941830016BD0A /* shoppingCartViewController.swift in Sources */,
 				95E75E6A2D66B3AA0061762C /* AppDelegate.swift in Sources */,
 				95E75E6C2D66B3AA0061762C /* SceneDelegate.swift in Sources */,
+				0806447A2DA751130016BD0A /* CartManager.swift in Sources */,
 				95E75E812D66CE8F0061762C /* ViewController.swift in Sources */,
 				959FB5DA2D66E4FB00756B4C /* secondViewController.swift in Sources */,
 				95E75E852D66D0ED0061762C /* firstViewController.swift in Sources */,
